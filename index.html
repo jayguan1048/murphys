@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Murphy's Bar & Grill in Honolulu">
+    <title>Murphy's Bar &amp; Grill</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <style>
+      nav a.link-light:hover,
+      nav a.link-light:focus-visible {
+        color: #0d6efd !important;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="text-white" style="background-color: #004030;">
+      <nav class="navbar navbar-expand-md navbar-dark" aria-label="Main navigation">
+        <div class="container">
+          <a class="navbar-brand me-auto" href="#" aria-label="Murphy's Bar & Grill home">
+            <img src="https://courses.ics.hawaii.edu/ics314s26/morea/ui-frameworks/murphyslogowhite.png" alt="Murphy's Bar & Grill" width="160" class="img-fluid">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mainNavbar">
+            <ul class="navbar-nav ms-auto align-items-md-center gap-md-3 gap-lg-4">
+              <li class="nav-item"><a class="nav-link link-light" href="#">Home</a></li>
+              <li class="nav-item"><a class="nav-link link-light" href="#">About Us</a></li>
+              <li class="nav-item"><a class="nav-link link-light" href="#">St. Patrick's Day</a></li>
+              <li class="nav-item"><a class="nav-link link-light" href="#">To Go Ordering</a></li>
+              <li class="nav-item">
+                <div class="d-flex align-items-center gap-3 py-2 py-md-0 ps-3 ps-md-0" aria-label="Social media">
+                  <a class="link-light" href="#" aria-label="Instagram"><i class="bi bi-instagram" aria-hidden="true"></i></a>
+                  <a class="link-light" href="#" aria-label="Facebook"><i class="bi bi-facebook" aria-hidden="true"></i></a>
+                  <a class="link-light" href="#" aria-label="Twitter"><i class="bi bi-twitter" aria-hidden="true"></i></a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="ratio ratio-1x1 d-md-none overflow-hidden text-center text-white" aria-label="Murphy's Bar & Grill">
+        <img src="images/background.webp" alt="" class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover">
+        <div class="position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center">
+          <div class="mt-5 pt-5 px-3 fs-2 fw-bold lh-sm">
+            <p class="mb-0">Now accepting reservations for St Patrick's Day</p>
+            <p class="mb-0">Please call 808-531-0422 for reservations</p>
+            <p class="mb-0">St Patrick's Day To-Go Orders can be ordered on<br class="d-none d-md-inline"> our website menu.</p>
+          </div>
+        </div>
+      </section>
+      <section class="ratio ratio-16x9 d-none d-md-block overflow-hidden text-center text-white" aria-label="Murphy's Bar & Grill">
+        <img src="./murphys-background.webp" alt="" class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover">
+        <div class="position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center">
+          <div class="mt-5 pt-5 px-3 fs-1 fw-bold lh-sm">
+            <br><br>
+            <p class="mb-0">Now accepting reservations for St Patrick's Day</p>
+            <p class="mb-0">Please call 808-531-0422 for reservations</p>
+            <p class="mb-0">St Patrick's Day To-Go Orders can be ordered on<br> our website menu.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="text-white py-5" style="background-color: #004030;">
+      <div class="container">
+        <div class="row gy-3 fs-5">
+          <section class="col-12 col-md-4">
+            <h2 class="small fw-normal mb-4">Lunch</h2>
+            <hr>
+            <p class="small mb-0">Monday - Friday: 11:00am - 2:30pm<br>Saturday - Sunday: Not open</p>
+          </section>
+          <section class="col-12 col-md-4">
+            <h2 class="small fw-normal mb-4">Bar</h2>
+            <hr>
+            <p class="small mb-0">Monday - Friday: From 11:00am to closing<br>Saturday - Sunday: Not open</p>
+          </section>
+          <section class="col-12 col-md-4">
+            <h2 class="small fw-normal mb-4">Dinner</h2>
+            <hr>
+            <p class="small mb-0">Monday - Friday: 5:00pm - 9:00pm<br>Saturday - Sunday: Not open</p>
+          </section>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
